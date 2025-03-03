@@ -6,7 +6,5 @@ package com.angcyo.maven.publish.mylibrary
  * @date 2025/03/03
  */
 class MyLibrary {
-    fun test() {
-        println("MyLibrary")
-    }
+    fun test(): String = "MyLibrary"
 }

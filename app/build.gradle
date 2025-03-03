@@ -42,4 +42,10 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.androidx.junit
     androidTestImplementation libs.androidx.espresso.core
+
+    //本地引用
+    //implementation(project(':mylibrary'))
+
+    //在线引用
+    implementation 'com.github.angcyo:MavenPublishDemo:1.1'
 }
