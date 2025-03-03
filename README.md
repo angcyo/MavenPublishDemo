@@ -83,3 +83,7 @@ afterEvaluate { //必须要放在 afterEvaluate 内
 ## 3. 运行构建任务即可生成对应的pom信息
 
 `./gradlew publish` 或 `./gradlew publishToMavenLocal`
+
+# jitpack
+
+https://jitpack.io/#angcyo/MavenPublishDemo
